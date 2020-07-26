@@ -5,7 +5,7 @@ sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/
 sudo apt update
 sudo apt install jenkins -y
 sudo systemctl start jenkins 
-
+sudo apt-get install maven -y
 sudo passwd jenkins << ENDX
 jenkins
 jenkins
@@ -24,3 +24,5 @@ echo
 curl ifconfig.co
 echo
 
+#sudo ssh-keygen
+#sudo ssh-copy-id jenkins@node ip
