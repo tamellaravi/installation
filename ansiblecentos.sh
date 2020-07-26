@@ -6,7 +6,7 @@ sudo yum install python -y
 
 
 sudo adduser ansible << ENDX
-sudo passwd ansible
+ansible
 ansible
 First Last
 
