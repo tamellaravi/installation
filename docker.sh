@@ -15,7 +15,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo usermod -aG docker ubuntu
 sudo chmod 666 /var/run/docker.sock
 echo 
-ubuntu id added to docker group
+"ubuntu id added to docker group"
 echo
 sudo systemctl status docker
 
